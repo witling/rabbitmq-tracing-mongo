@@ -1,0 +1,10 @@
+{application, rabbitmq_tracing_mongo,
+ [{description, "RabbitMQ message logging / tracing to MongoDB"},
+  {vsn, "%%VSN%%"},
+  {modules, []},
+  {registered, []},
+  {mod, {rabbit_tracing_app, []}},
+  {env, [{username,  <<"guest">>},
+         {mongo_ip, "192.168.49.64"},
+         {mongo_port, 27017}]},
+  {applications, [kernel, stdlib, rabbit, rabbitmq_management, emongo]}]}.

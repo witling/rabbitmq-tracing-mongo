@@ -1,0 +1,6 @@
+build/*
+cover/*
+dist/*
+.*\.beam
+ebin/.*\.app$
+tmp/*
