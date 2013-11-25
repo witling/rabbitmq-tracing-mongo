@@ -37,6 +37,10 @@ This plugin needs emongo.
 	cd emongo
 	make
 
+Or clone the emongo-wrapper
+	
+	git clone https://github.com/doubaokun/emongo-wrapper
+
 Add the following to config file:
 
 	{env,[{username,<<"guest">>},
