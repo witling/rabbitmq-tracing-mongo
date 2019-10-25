@@ -31,22 +31,22 @@ $ curl -i -u guest:guest -H "content-type:application/json" -XPUT \
 This plugin needs emongo.
 
 ``` bash
-	cd plugins
-	git clone https://github.com/JacobVorreuter/emongo
-	cd emongo
-	make
+cd plugins
+git clone https://github.com/JacobVorreuter/emongo
+cd emongo
+make
 ```
 
 Or clone the emongo-wrapper
 	
 ``` bash
-	git clone https://github.com/doubaokun/emongo-wrapper
+git clone https://github.com/doubaokun/emongo-wrapper
 ```
 
 Add the following to config file:
 
 ``` erlang
-	{env,[{username,<<"guest">>},
-                    {mongo_ip,"192.168.49.64"},
-                    {mongo_port,27017}]}
+{env,[{username,<<"guest">>},
+	{mongo_ip,"192.168.49.64"},
+	{mongo_port,27017}]}
 ```
