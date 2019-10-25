@@ -4,3 +4,4 @@ dist/*
 .*\.beam
 ebin/.*\.app$
 tmp/*
+plugins/**/*
